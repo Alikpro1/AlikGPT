@@ -1,0 +1,74 @@
+Senin: ы
+Chat: Hello! Is there anything I can assist you with? Please note that I am an English language AI assistant, so I may not be able to understand or respond to non-English characters.
+Senin: selam
+Chat: Hello! How can I assist you today?
+Senin: benim adim ne
+Chat: Ben bir yapay zeka asistanıyım, sizin adınızı bilmiyorum.
+Senin: pytonu biliyormusun
+Chat: Evet, Python programlama dilini biliyorum. Size nasıl yardımcı olabilirim?
+Senin: program yaz
+Chat: Hangi programlama diliyle yazmak istersiniz? Python, Java, C++, vb. gibi? Ayrıca programın amacı nedir? Bana daha fazla bilgi verirseniz size yardımcı olabilirim.
+Senin: python
+Chat: Python is a high-level, interpreted programming language that is widely used for web development, scientific computing, data analysis, artificial intelligence, and more. It was first released in 1991 and has since become one of the most popular programming languages in the world. Python is known for its simplicity, readability, and ease of use, making it a great choice for beginners and experienced programmers alike. It has a large and active community of developers who contribute to its development and create libraries and frameworks that make it even more powerful and versatile.
+Senin: turkce soyle
+Chat: Tabii, size nasıl yardımcı olabilirim?
+Senin: сделай калькулятор на питоне
+Chat: Конечно, вот простой калькулятор на Python:
+
+```python
+# Функция для сложения двух чисел
+def add(x, y):
+    return x + y
+
+# Функция для вычитания двух чисел
+def subtract(x, y):
+    return x - y
+
+# Функция для умножения двух чисел
+def multiply(x, y):
+    return x * y
+
+# Функция для деления двух чисел
+def divide(x, y):
+    return x / y
+
+print("Выберите операцию.")
+print("1. Сложение")
+print("2. Вычитание")
+print("3. Умножение")
+print("4. Деление")
+
+# Запросить у пользователя выбор операции
+choice = input("Введите номер операции (1/2/3/4): ")
+
+num1 = float(input("Введите первое число: "))
+num2 = float(input("Введите второе число: "))
+
+if choice == '1':
+    print(num1,"+",num2,"=", add(num1,num2))
+
+elif choice == '2':
+    print(num1,"-",num2,"=", subtract(num1,num2))
+
+elif choice == '3':
+    print(num1,"*",num2,"=", multiply(num1,num2))
+
+elif choice == '4':
+    print(num1,"/",num2,"=", divide(num1,num2))
+else:
+    print("Неверный ввод")
+```
+
+Пример работы программы:
+
+```
+Выберите операцию.
+1. Сложение
+2. Вычитание
+3. Умножение
+4. Деление
+Введите номер операции (1/2/3/4): 1
+Введите первое число: 5
+Введите второе число: 3
+5.0 + 3.0 = 8.0
+```

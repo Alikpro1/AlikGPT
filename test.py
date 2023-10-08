@@ -1,0 +1,125 @@
+# словарь с переводами интерфейса
+interface_translations = {
+    "eng": [
+        'Settings',
+        'Clear conversations',
+        'ChatGPT settings',
+        'Interface',
+        'Theme',
+        'System',
+        'Light',
+        'Dark',
+        'API key',
+        'Set API key',
+        'Language',
+        'Voiceover',
+        'Model',
+        'Token',
+        'Temperature',
+        'Confirmation',
+        'Are you sure you want to go to the site? After confirmation, you will be redirected to the official openai website.'
+    ],
+    "rus": [
+        'Настройки',
+        'Очистить диалог',
+        'Настройки ChatGPT',
+        'Интерфейс',
+        'Тема',
+        'Системная',
+        'Светлая',
+        'Темная',
+        'API ключ',
+        'Установить API ключ',
+        'Язык',
+        'Озвучка',
+        'Модель',
+        'Токен',
+        'Температура',
+        'Подтверждение',
+        'Вы уверены, что хотите перейти на сайт? После подтверждения вы будете перенаправлены на официальный сайт OpenAI.'
+    ],
+    "esp": [
+        'Configuración',
+        'Borrar conversaciones',
+        'Configuración de ChatGPT',
+        'Interfaz',
+        'Tema',
+        'Sistema',
+        'Claro',
+        'Oscuro',
+        'Clave de API',
+        'Establecer clave de API',
+        'Idioma',
+        'Locución',
+        'Modelo',
+        'Token',
+        'Temperatura',
+        'Confirmación',
+        '¿Estás seguro de que deseas ir al sitio web? Después de la confirmación, serás redirigido al sitio web oficial de OpenAI.'
+    ],
+    "deu": [
+        'Einstellungen',
+        'Konversationen löschen',
+        'ChatGPT-Einstellungen',
+        'Benutzeroberfläche',
+        'Thema',
+        'System',
+        'Hell',
+        'Dunkel',
+        'API-Schlüssel',
+        'API-Schlüssel festlegen',
+        'Sprache',
+        'Vertonung',
+        'Modell',
+        'Token',
+        'Temperatur',
+        'Bestätigung',
+        'Sind Sie sicher, dass Sie zur Website gehen möchten? Nach der Bestätigung werden Sie zur offiziellen OpenAI-Website weitergeleitet.'
+    ],
+    "tur": [
+        'Ayarlar',
+        'Konuşmaları temizle',
+        'ChatGPT ayarları',
+        'Arayüz',
+        'Tema',
+        'Sistem',
+        'Açık',
+        'Karanlık',
+        'API anahtarı',
+        'API anahtarını ayarla',
+        'Dil',
+        'Seslendirme',
+        'Model',
+        'Jeton',
+        'Sıcaklık',
+        'Onay',
+        'Siteye gitmek istediğinizden emin misiniz? Onaylandıktan sonra resmi OpenAI web sitesine yönlendirileceksiniz.'
+    ],
+    "ukr": [
+        'Налаштування',
+        'Очистити діалог',
+        'Налаштування ChatGPT',
+        'Інтерфейс',
+        'Тема',
+        'Системна',
+        'Світла',
+        'Темна',
+        'API-ключ',
+        'Встановити API-ключ',
+        'Мова',
+        'Озвучення',
+        'Модель',
+        'Токен',
+        'Температура',
+        'Підтвердження',
+        'Ви впевнені, що бажаєте перейти на сайт? Після підтвердження ви будете перенаправлені на офіційний сайт OpenAI.'
+    ]
+}
+
+
+user_language = 'rus'  # Выбранный язык
+index_to_select = 0  # Индекс строки
+selected_translation = interface_translations.get(user_language, [])
+word_to_select = selected_translation[index_to_select]
+print(f"Selected word: {word_to_select}")
+
